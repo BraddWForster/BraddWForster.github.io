@@ -1,0 +1,73 @@
+body {
+    font-family: Montserrat;
+    background-color: #F5F5F5;
+    border-color: orange;
+    border-width: 10px;
+}
+h1 {
+    color: #2C3E50;
+    background-color: #F5F5F5;
+    font-size: 300%;
+    border: 2px solid orange;
+}
+h2 {
+    color: #2C3E50;
+    background-color: #F5F5F5;
+    border: 2px solid orange;
+}
+h3 {
+    color: #2C3E50;
+    background-color: #F5F5F5;
+    border: 2px orange;
+}
+p {
+    color: #4A4A4A;
+    margin: -20px 300px 20px -8px;
+    border: 2px orange;  /* To see boxes */
+    padding: 5px;
+}
+ul {
+    color: #4A4A4A;
+    margin: -10px auto -10px auto;
+}
+li {
+    color: #4A4A4A;
+    margin: auto auto auto 750px;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited {
+    color: #2C3E50;
+}
+a:hover {
+    text-decoration: underline;
+}
+#header {
+    background-color: #F5F5F5;
+    margin: -8px -8px -8px -8px;
+    text-align: center;
+    border: 2px solid #F5F5F5;
+    /*border-color: orange;*/
+    border-width: 2px;  /* To see boxes */
+}
+#crossbar {
+    background-color: #F5F5F5;
+    margin: 6px -8px 20px -8px;
+    text-align: center;
+    border: 2px solid #F5F5F5;
+    /*border-color: orange;*/
+    border-width: 2px;  /* To see boxes */
+}
+#page_entry {
+    border: 2px solid #F5F5F5;
+    margin: auto auto auto 200px;
+    /*border-color: orange;*/
+    border-width: 2px;  /* To see boxes */
+}
+#crossbar_list {
+    display: inline;
+    margin: -20px 8px 20px 8px;
+    /*border-color: orange;*/
+    border-width: 2px;  /* To see boxes */
+}
