@@ -60,10 +60,16 @@ a:hover {
     border-width: 2px;  /* To see boxes */
 }
 #page_entry {
-    border: 2px solid #F5F5F5;
-    margin: auto auto auto 200px;
-    /*border-color: orange;*/
-    border-width: 2px;  /* To see boxes */
+     /* Old border & styling */
+     border: 2px solid #F5F5F5;
+     border-width: 2px;
+ 
+     /* Responsive properties */
+     max-width: 45%;   /* Let the image shrink if window gets smaller */
+     height: auto;      /* Maintain the correct aspect ratio */
+ 
+     float: left;       /* Floats on larger screens */
+     margin-right: 25px;/* Gap between text and image */
 }
 #crossbar_list {
     display: inline;
