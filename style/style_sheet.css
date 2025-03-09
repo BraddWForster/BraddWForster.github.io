@@ -22,58 +22,74 @@ h3 {
 }
 p {
     color: #4A4A4A;
-    margin: -20px 300px 20px -8px;
-    border: 2px orange;  /* To see boxes */
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
     padding: 5px;
 }
 ul {
     color: #4A4A4A;
     margin: -10px auto -10px auto;
 }
-li {
-    color: #4A4A4A;
-    margin: auto auto auto 750px;
+#crossbar ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
 }
-a:link{
-    text-decoration: none;
-}
-a:visited {
-    color: #2C3E50;
-}
-a:hover {
-    text-decoration: underline;
+#crossbar_list {
+    display: inline;
+    margin 5px 15px;
 }
 #header {
-    background-color: #F5F5F5;
+    background-color:  #F5F5F5;
     margin: -8px -8px -8px -8px;
     text-align: center;
     border: 2px solid #F5F5F5;
-    /*border-color: orange;*/
-    border-width: 2px;  /* To see boxes */
-}
+} 
 #crossbar {
     background-color: #F5F5F5;
     margin: 6px -8px 20px -8px;
     text-align: center;
     border: 2px solid #F5F5F5;
-    /*border-color: orange;*/
-    border-width: 2px;  /* To see boxes */
+    border-width: 2px;
 }
 #page_entry {
-     /* Old border & styling */
-     border: 2px solid #F5F5F5;
-     border-width: 2px;
- 
-     /* Responsive properties */
-     max-width: 45%;   /* Let the image shrink if window gets smaller */
-     height: auto;      /* Maintain the correct aspect ratio */
- 
-     float: left;       /* Floats on larger screens */
-     margin-right: 25px;/* Gap between text and image */
+    border: 2px solid #F5F5F5;
+    border-width: 2px;
+    max-width: 45%;
+    height: auto;
+    float: left;
+    margin-right: 25px;
 }
-#crossbar_list {
-    display: inline;
-    margin: -20px 8px 20px 8px;
-    /*border-color: orange;*/
-    border-width: 2px;  /* To see boxes */
+@media screen and (max-width: 768px) {
+    #page_entry {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+        max-width: 80%;
+    }
+
+    p {
+        max-width: 95%;
+        text-align: left;
+    }
+
+    #crossbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #crossbar_list {
+        display: block;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
 }
