@@ -1,27 +1,27 @@
 body {
     font-family: Montserrat;
-    background-color: #F5F5F5;
+    background-color: #132E35;
     border-color: orange;
     border-width: 5px;
 }
 h1 {
-    color: #2C3E50;
-    background-color: #F5F5F5;
+    color: #AFB3B7;
+    background-color: #132E35;
     font-size: 300%;
     border: 5px solid orange;
 }
 h2 {
-    color: #2C3E50;
-    background-color: #F5F5F5;
+    color: #AFB3B7;
+    background-color: #132E35;
     border: 5px solid orange;
 }
 h3 {
-    color: #2C3E50;
-    background-color: #F5F5F5;
+    color: #AFB3B7;
+    background-color: #132E35;
     border: 5px solid orange;
 }
 p {
-    color: #4A4A4A;
+    color: #AFB3B7;
     margin: auto auto auto auto;
     max-width: 100%;
     text-align: left;
@@ -29,20 +29,27 @@ p {
     padding: 5px;
 }
 ul {
-    color: #4A4A4A;
+    color: #AFB3B7;
     margin: auto auto auto auto;
 }
+a:link {
+    color: #AFB3B7;;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 #header {
-    background-color:  #F5F5F5;
+    background-color:  #132E35;
     margin: auto;
     text-align: center;
-    border: 2px solid #F5F5F5;
+    border: 2px solid #132E35;
 }
 #crossbar {
-    background-color: #F5F5F5;
+    background-color: #132E35;
     margin: auto auto;
     text-align: center;
-    border: 2px solid #F5F5F5;
+    border: 2px solid #132E35;
     border-width: 2px;
 }
 #crossbar ul {
@@ -56,6 +63,7 @@ ul {
     margin: auto 10px;    
 }
 #image {
+    float: left;
     border: 5px solid orange;
     max-width: 45%;
     height: auto;
