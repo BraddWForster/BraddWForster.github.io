@@ -33,11 +33,14 @@ ul {
     margin: auto auto auto auto;
 }
 a:link {
-    color: #AFB3B7;;
+    color: #AFB3B7;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
+}
+a:visited {
+    color: #AFB3B7;
 }
 #header {
     background-color:  #132E35;
