@@ -1,37 +1,42 @@
+:root {
+    --border-color: orange;
+    --background-color: #132E35;
+}
 body {
     font-family: Montserrat;
     background-color: #132E35;
-    border-color: orange;
+    border-color: var(--background-color);
     border-width: 5px;
 }
 h1 {
     color: #AFB3B7;
     background-color: #132E35;
     font-size: 300%;
-    border: 5px solid orange;
+    border: 5px solid var(--background-color);
 }
 h2 {
     color: #AFB3B7;
     background-color: #132E35;
-    border: 5px solid orange;
+    border: 5px solid var(--background-color);
 }
 h3 {
     color: #AFB3B7;
     background-color: #132E35;
-    border: 5px solid orange;
+    border: 5px solid var(--background-color);
 }
 p {
     color: #AFB3B7;
     margin: auto auto auto auto;
     max-width: 100%;
     text-align: left;
-    border: 5px solid orange;
+    border: 5px solid var(--background-color);
     padding: 5px;
 }
 ul {
     color: #AFB3B7;
-    margin: auto auto auto auto;
-    padding-left: 100px;
+    margin: 10px auto 10px auto;
+    padding-left: 40px;
+    overflow: auto;
 }
 a:link {
     color: #AFB3B7;
@@ -68,10 +73,9 @@ a:visited {
 }
 #image {
     float: left;
-    border: 5px solid orange;
+    border: 5px solid var(--background-color);
     max-width: 45%;
     height: auto;
-    float: center;
     margin: auto; 
 }
 @media screen and (max-width: 768px) {
