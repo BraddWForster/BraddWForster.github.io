@@ -5,7 +5,7 @@
 body {
     font-family: Montserrat;
     background-color: #132E35;
-    border-color: var(--border-color);
+    border-color: var(--background-color);
     border-width: 5px;
     padding: 10px;
 }
@@ -13,31 +13,31 @@ h1 {
     color: #AFB3B7;
     background-color: #132E35;
     font-size: 300%;
-    border: 5px solid var(--border-color);
+    border: 5px solid var(--background-color);
 }
 h2 {
     color: #AFB3B7;
     background-color: #132E35;
-    border: 5px solid var(--border-color);
+    border: 5px solid var(--background-color);
 }
 h3 {
     color: #AFB3B7;
     background-color: #132E35;
-    border: 5px solid var(--border-color);
+    border: 5px solid var(--background-color);
 }
 p {
     color: #AFB3B7;
     margin: auto auto auto auto;
     max-width: 100%;
     text-align: left;
-    border: 5px solid var(--border-color);
+    border: 5px solid var(--background-color);
     padding: 5px;
 }
 ul {
     color: #AFB3B7;
     padding-left: 40px;
     overflow: auto;
-    border: 5px solid var(--border-color);
+    border: 5px solid var(--background-color);
 }
 a:link {
     color: #AFB3B7;
@@ -74,7 +74,7 @@ a:visited {
 }
 #image {
     display: block;
-    border: 5px solid var(--border-color);
+    border: 5px solid var(--background-color);
     height: auto;
     max-width: 100%;
     margin: 0 auto; 
@@ -136,6 +136,9 @@ a:visited {
         margin: auto 525px auto 525px;
     }
     #analyses-heading h3 {
-        margin: auto 555px auto 555px;
+        margin: auto 525px auto 525px;
+    }
+    #index-heading h3 {
+        margin: auto 620px auto 620px;
     }
 }
