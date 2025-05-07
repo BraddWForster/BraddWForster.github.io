@@ -93,7 +93,7 @@ a:visited {
     align-items: flex-start;
     gap: 20px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     #page_entry {
         float: none;
         display: block;
@@ -123,7 +123,7 @@ a:visited {
         align-items: center;
     }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
     p {
         font-size: 18px;
         line-height: 1.6;
