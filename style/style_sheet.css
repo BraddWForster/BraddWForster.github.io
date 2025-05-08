@@ -3,11 +3,10 @@
     --background-color: #132E35;
 }
 body {
-    font-family: Montserrat;
+    font-family: Segoe UI;
     background-color: #132E35;
     border-color: var(--background-color);
     border-width: 5px;
-    padding: 10px;
 }
 h1 {
     color: #AFB3B7;
@@ -24,6 +23,7 @@ h3 {
     color: #AFB3B7;
     background-color: #132E35;
     border: 5px solid var(--background-color);
+    padding: 10px;
 }
 p {
     color: #AFB3B7;
@@ -31,7 +31,7 @@ p {
     max-width: 100%;
     text-align: left;
     border: 5px solid var(--background-color);
-    padding: 5px;
+    padding: 10px;
 }
 ul {
     color: #AFB3B7;
@@ -122,6 +122,22 @@ a:visited {
         flex-direction: column;
         align-items: center;
     }
+    #index-heading h3,
+    #index-heading p,
+    #index-heading ul,
+    #index-heading img {
+    max-width: 95%;
+    margin: 20px auto;
+    text-align: left;
+    }
+    #analyses-heading h3,
+    #analyses-heading p,
+    #analyses-heading ul,
+    #analyses-heading img {
+        max-width: 95%;
+        margin: 20px auto;
+        text-align: left;
+    }
 }
 @media screen and (min-width: 800px) {
     p {
@@ -142,11 +158,19 @@ a:visited {
     #contact-gap h3 {
         margin: auto 525px auto 525px;
     }
-    #analyses-heading h3 {
-        margin: auto 525px auto 525px;
+    #index-heading h3,
+    #index-heading p,
+    #index-heading ul,
+    #index-heading img {
+        max-width: 800px;
+        margin: 20px auto;
     }
-    #index-heading h3 {
-        margin: auto 525px auto 525px;
+    #analyses-heading h3,
+    #analyses-heading p,
+    #analyses-heading ul,
+    #analyses-heading img {
+        max-width: 800px;
+        margin: 20px auto;
     }
     #moving_image {
         display: block;
