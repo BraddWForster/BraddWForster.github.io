@@ -138,6 +138,14 @@ a:visited {
         margin: 20px auto;
         text-align: left;
     }
+    #contact-heading h3,
+    #contact-heading p,
+    #contact-heading ul,
+    #contact-heading img {
+        max-width: 95%;
+        margin: 20px auto;
+        text-align: left;
+    }
 }
 @media screen and (min-width: 800px) {
     p {
@@ -169,6 +177,13 @@ a:visited {
     #analyses-heading p,
     #analyses-heading ul,
     #analyses-heading img {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+    #contact-heading h3,
+    #contact-heading p,
+    #contact-heading ul,
+    #contact-heading img {
         max-width: 800px;
         margin: 20px auto;
     }
