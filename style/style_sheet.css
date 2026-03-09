@@ -33,11 +33,12 @@ p {
     border: 5px solid var(--background-color);
     padding: 10px;
 }
-ul {
+ul, ol {
     color: #AFB3B7;
     padding-left: 40px;
     overflow: auto;
     border: 5px solid var(--background-color);
+    font-size: 18px
 }
 a:link {
     color: #AFB3B7;
@@ -199,4 +200,25 @@ a:visited {
         text-align: center;
         margin: auto 0px auto 0px;
     }
+}
+.definition-box {
+    background-color: #1e3d47;
+    border: 1px solid #AFB3B7;
+    border-radius: 2px;
+    padding: 16px 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.definition-box p,
+.definition-box ul,
+.definition-box ol {
+    border: none;
+    margin: 8px 0;
+    padding-left: 0;
+    max-width: 100%;
+}
+.definition-box ul,
+.definition-box ol {
+    padding-left: 24px;
+    margin: auto;
 }
